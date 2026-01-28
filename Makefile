@@ -26,6 +26,9 @@ depend:
 clean:
 	$(RM) $(OBJS) $(TARGET)
 
+fclean:
+	$(RM) $(OBJS) $(TARGET)
+
 tests_run:
 	@./$(TARGET)
 
