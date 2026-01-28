@@ -26,4 +26,9 @@ depend:
 clean:
 	$(RM) $(OBJS) $(TARGET)
 
+tests_run:
+	@./$(TARGET)
+
+	
+
 -include $(DEPS)
